@@ -6,6 +6,17 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "reason",
+						"type": "string"
+					}
+				],
+				"name": "custom",
+				"type": "error"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -33,14 +44,43 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
+				"outputs": [
+					{
 						"internalType": "uint256",
-						"name": "cash",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "buyer",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "C_P",
 						"type": "uint256"
 					}
 				],
 				"name": "buy",
 				"outputs": [],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -62,7 +102,23 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "buyer",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "S_P",
+						"type": "uint256"
+					}
+				],
 				"name": "sell",
 				"outputs": [
 					{
@@ -71,7 +127,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -103,11 +159,11 @@
 	},
 	"sources": {
 		"marketplace.sol": {
-			"keccak256": "0x03949db6424825693f17c1bbdb5dba40db578a7d6160991b8292c4a61581db19",
+			"keccak256": "0xd46e5c22cc0dfa4d7a2f6127f8698b55ea047ccdc4aab408ce0d49de7aa259c8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c559e40abe72a85828af2bd08e52daf8fd58e7aff887f05d42923ae5d78c59a6",
-				"dweb:/ipfs/Qmcv9Mn4dtJ7juYbTe78YrC8sURwVWqxVZhjfMuuFn3xWs"
+				"bzz-raw://611ec3c4cb5f08a128d9c188ac223843c2f955228d451ba54d6854491aeb83bf",
+				"dweb:/ipfs/QmPJW4GSEsvZSC1yj4iJj51pZfPobTTRzutC18vDGgUGEn"
 			]
 		}
 	},
