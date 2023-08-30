@@ -42,12 +42,13 @@ contract PremiumSeller is marketplace{
      feepercentage = _feepercentage;
     }
     function sell(address sender, address buyer, uint S_P) public virtual override returns(string memory) {
+    super.sell(sender,buyer,S_P);
     require(balance[sender] == 0, "your balance is zero");
     uint fee = S_P * feepercentage / 100;
     balance[sender] -= fee;
     balance[address(this)] += fee;
 
-    super.sell(sender,buyer,S_P);
+    
     return ("item will be sent to your address");
     }
 
@@ -56,10 +57,10 @@ contract RegularBuyer is marketplace{
 
 }
 contract VIP_buyer is marketplace{
-    uint public discount;
+    uint public discountper;
     uint public finalAmount;
     constructor(uint dispercentage){
-        discount = dispercentage;
+        discountper = dispercentage;
     }
 
     function buy(address sender, address buyer, uint C_P) public virtual override {
@@ -67,11 +68,12 @@ contract VIP_buyer is marketplace{
         require(balance[buyer] != 0," buyer is not registered");
         require(C_P != 0, " cost cant be zero");
 
-        finalAmount = C_P * discount/100; 
+        uint discount_price = C_P * discountper/100; 
+        finalAmount = C_P - discount_price;
         balance[sender] += finalAmount;
         balance[buyer] -= finalAmount; 
 
-        emit purchase(buyer, sender, finalAmount);
+        emit purchase(buyer, sender, discount_price);
        
 
     }
