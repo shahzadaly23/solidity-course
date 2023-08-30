@@ -45,25 +45,6 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "balance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
 						"name": "sender",
 						"type": "address"
 					},
@@ -159,11 +140,11 @@
 	},
 	"sources": {
 		"marketplace.sol": {
-			"keccak256": "0xd46e5c22cc0dfa4d7a2f6127f8698b55ea047ccdc4aab408ce0d49de7aa259c8",
+			"keccak256": "0x5fb043cc5d496f314595adb836dd5202db8e43b79561c826831d512b8c363ad0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://611ec3c4cb5f08a128d9c188ac223843c2f955228d451ba54d6854491aeb83bf",
-				"dweb:/ipfs/QmPJW4GSEsvZSC1yj4iJj51pZfPobTTRzutC18vDGgUGEn"
+				"bzz-raw://8444ca116acc2c3d29c105b0f940b92902e71be5cda7ec37549aa4f19a5c7ce6",
+				"dweb:/ipfs/QmVV6Rgf3QAFhkfw7Roz9hYMbepij6rCEtBQ1vDmJ9aaFu"
 			]
 		}
 	},

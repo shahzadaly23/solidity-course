@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "patientname",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_disease",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Patient",
+				"outputs": [
+					{
+						"internalType": "contract HMS",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "retrive",
+				"outputs": [
+					{
+						"internalType": "contract HMS",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HMS.sol": "newHMS"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HMS.sol": {
+			"keccak256": "0x80afd1bc68b0b9e4b4955408684906f0b49ae0d3511bf3fe459d95f916afe3b5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e07983c953036dc1b3ccbcb7402224f0ff330196f2b11d201a8b5afd1f314c9e",
+				"dweb:/ipfs/QmdWu8zWzWASK8zdY3jyRGcrV9Phfxre2i5fL2af61u6b3"
+			]
+		}
+	},
+	"version": 1
+}

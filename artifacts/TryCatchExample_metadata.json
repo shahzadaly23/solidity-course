@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_simpleDivisionAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numerator",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "denominator",
+						"type": "uint256"
+					}
+				],
+				"name": "Errors",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "result",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "simpleDivisionContract",
+				"outputs": [
+					{
+						"internalType": "contract SimpleDivision",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TryCatch.sol": "TryCatchExample"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TryCatch.sol": {
+			"keccak256": "0x48076f99514133328f81fed0e1378a8d53fca38d6289dfeb0b023d6a227d77f7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fbca73e2d91b02e0c961df7f9372433e614a7fcadb2a168a02aa4d40211b1ae6",
+				"dweb:/ipfs/QmPwomJmx3zwAw7JqAXTSc8qxJ3dXVBL73Ep3VnJFWHwED"
+			]
+		}
+	},
+	"version": 1
+}

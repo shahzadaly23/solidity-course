@@ -9,12 +9,23 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "feepercentage",
+						"name": "_feepercentage",
 						"type": "uint256"
 					}
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "reason",
+						"type": "string"
+					}
+				],
+				"name": "custom",
+				"type": "error"
 			},
 			{
 				"anonymous": false,
@@ -44,19 +55,29 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "buyer",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
-						"name": "cash",
+						"name": "C_P",
 						"type": "uint256"
 					}
 				],
 				"name": "buy",
 				"outputs": [],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "fee",
+				"name": "feepercentage",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -86,7 +107,23 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "buyer",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "S_P",
+						"type": "uint256"
+					}
+				],
 				"name": "sell",
 				"outputs": [
 					{
@@ -95,7 +132,7 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -127,11 +164,11 @@
 	},
 	"sources": {
 		"marketplace.sol": {
-			"keccak256": "0x03949db6424825693f17c1bbdb5dba40db578a7d6160991b8292c4a61581db19",
+			"keccak256": "0x5fb043cc5d496f314595adb836dd5202db8e43b79561c826831d512b8c363ad0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c559e40abe72a85828af2bd08e52daf8fd58e7aff887f05d42923ae5d78c59a6",
-				"dweb:/ipfs/Qmcv9Mn4dtJ7juYbTe78YrC8sURwVWqxVZhjfMuuFn3xWs"
+				"bzz-raw://8444ca116acc2c3d29c105b0f940b92902e71be5cda7ec37549aa4f19a5c7ce6",
+				"dweb:/ipfs/QmVV6Rgf3QAFhkfw7Roz9hYMbepij6rCEtBQ1vDmJ9aaFu"
 			]
 		}
 	},

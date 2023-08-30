@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "encodedData",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint256",
+						"name": "voterIDToVerify",
+						"type": "uint256"
+					}
+				],
+				"name": "decodeAndVerifyVoterData",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "voterAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "voterID",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "age",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct VotingDataEncoder.Voter",
+						"name": "voter",
+						"type": "tuple"
+					}
+				],
+				"name": "encodeVoterData",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lib_Imports.sol": "VotingDataEncoder"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lib_Imports.sol": {
+			"keccak256": "0x55b94c51bc2e17fcd7f1ddcdd0eabfd00e0ec96ce8193a9f700bfe167f72d4f1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2de3bb43ccd76889f19d52b3d18f0373ee4e9b172c1d6594140e1f1d4a8f524d",
+				"dweb:/ipfs/QmdXA5mo6UzhYwaBehe7DPM4rH3BAjVfw3P3Nd7ajYtXXV"
+			]
+		}
+	},
+	"version": 1
+}
