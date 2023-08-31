@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Lib_Imports.sol": "MathLib"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Lib_Imports.sol": {
+			"keccak256": "0xe0261097767fc8afd12e3254ae500316e0394ce8379f5ca7a26fd31d5e5c9276",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://10af008ef21063f38c08fd2f811c8e43c95ddd936cf0ec6a4d57f767e3e0fff4",
+				"dweb:/ipfs/QmaKhvojxHcGgaWw9MAa8SFHqijV9P4xsjbogMbwpFwh6c"
+			]
+		}
+	},
+	"version": 1
+}

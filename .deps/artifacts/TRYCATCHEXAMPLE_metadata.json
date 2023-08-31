@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/practiec.sol": "TRYCATCHEXAMPLE"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/practiec.sol": {
+			"keccak256": "0xa688126bcea2c1a4b6b000a72a2a5d223dab28add8e297fa1da31d48dbd0517a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://71574d4b2c97e7bd5b086cc4e641154b3937eafdf5662197a66fa9259d378a25",
+				"dweb:/ipfs/QmcPJx21qUVAwLnjtMjwSULyan1CiTJ8pbunPvSW5KvA38"
+			]
+		}
+	},
+	"version": 1
+}

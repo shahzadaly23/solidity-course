@@ -26,7 +26,7 @@ returns(uint256) {
 
 
 
-library MathLibrary {
+library MathLib {
     function add(uint256 a, uint256 b) internal  pure returns (uint256) {
         return a + b;
     }
@@ -42,7 +42,7 @@ library MathLibrary {
 }
 
 contract MathUser {
-    using MathLibrary for uint256;
+    using MathLib for uint256;
 
     function useMathFunctions(uint256 x, uint256 y) public pure returns (uint256 sum, uint256 difference, uint256 powered) {
         sum = x.add(y);

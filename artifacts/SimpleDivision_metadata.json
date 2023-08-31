@@ -58,11 +58,11 @@
 	},
 	"sources": {
 		"TryCatch.sol": {
-			"keccak256": "0x48076f99514133328f81fed0e1378a8d53fca38d6289dfeb0b023d6a227d77f7",
+			"keccak256": "0x11fee935d9ca9d6a05734e54a30fb4fa1e26d470b7e2cd6a5b44bd9b58c69662",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fbca73e2d91b02e0c961df7f9372433e614a7fcadb2a168a02aa4d40211b1ae6",
-				"dweb:/ipfs/QmPwomJmx3zwAw7JqAXTSc8qxJ3dXVBL73Ep3VnJFWHwED"
+				"bzz-raw://4a2aab1a3a0dc743ce1274ce1e272b74e006130b0f2acd9299248870d3ad7e7e",
+				"dweb:/ipfs/QmXqRV81XvPJXREHdfViaoqf3vC3C5WSKSatqciiKcNbFa"
 			]
 		}
 	},

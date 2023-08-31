@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/practiec.sol": "call_contract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/practiec.sol": {
+			"keccak256": "0xc80ac4af7fbfcfd73ea8a6ba032416f6971fe3f4ce1a7da4655fa7ad8023b771",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f05659012b523f87996282b397a60ce245dc0df2c65acabbd3ec5950a309dca3",
+				"dweb:/ipfs/QmTw6nZSeB6FLtj6ACuPFfopXXipuNEWr22iepEPhcj4KU"
+			]
+		}
+	},
+	"version": 1
+}

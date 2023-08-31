@@ -60,6 +60,25 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "executeNew",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -90,11 +109,11 @@
 	},
 	"sources": {
 		"TryCatch.sol": {
-			"keccak256": "0x506748ff9506ddef2b791328601e06cd3de1a4cf90bd2f999001b6a429ddc564",
+			"keccak256": "0x11fee935d9ca9d6a05734e54a30fb4fa1e26d470b7e2cd6a5b44bd9b58c69662",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1689e87888ed5079023e5c5c5cfa0d1be2ee39def0ec6899497686ac14359558",
-				"dweb:/ipfs/QmVYDcDy6bhiUkAET9REehuCBozWuGTDyooGj5bnzHCPeJ"
+				"bzz-raw://4a2aab1a3a0dc743ce1274ce1e272b74e006130b0f2acd9299248870d3ad7e7e",
+				"dweb:/ipfs/QmXqRV81XvPJXREHdfViaoqf3vC3C5WSKSatqciiKcNbFa"
 			]
 		}
 	},
